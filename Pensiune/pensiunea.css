@@ -1,0 +1,101 @@
+header, section, footer,  nav, article, figure, figcaption{
+    display: block;
+}
+body{
+    color: rgb(50, 49, 49);
+    background-color: #f9f8f6;
+    background-image: url("background.jpg");
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    margin: 0px;
+}
+.logo{
+    width: 110px;
+    margin-left: -20px;
+}
+.fatada{
+    width: 1000px;
+    height: 1550px;
+    margin: 20px auto 20px auto;
+    border: 3px solid rgb(74, 74, 74);
+    background-color: #ffffff;
+}
+nav, footer{
+    clear: both;
+    color: #ffffff;
+    background-color:gray;
+    height: 45px;
+}
+nav{
+   clear: both;
+   background-color: grey;
+}
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+nav li a{
+    color: white;
+}
+#fb{
+    width: 18px;
+    float: right;
+    margin-top: -25px;
+    padding-right: 40px;
+}
+header    {
+    padding-left: 350px;
+}
+.logo{
+    width: 250px;
+}
+figure{
+    width: 200px;
+}
+#pozapr{
+    width: 920px;
+    padding-top: 30px;
+}
+img{
+    width: 278px;
+    padding-left: 40px;
+}
+.prezentare{
+    text-align: left;
+    padding-left: 40px;
+    width: 600px;
+}
+#poza{
+    float: right;
+    margin-top: -300px;
+    padding-right: 40px;
+}
+#a{
+    color: green;
+}
+#d{
+    color: green;
+}
+h2{
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+.coloana1, .coloana2, .coloana3{
+    width: 270px;
+    float: left;
+    margin: 10px;
+    padding-left: 40px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+}
